@@ -52,7 +52,7 @@ require([
         layerInfos: [
           {
             layer: layer, 
-            title: "Issue Types" 
+            title: "Repair Type" 
           }
         ]
       });
