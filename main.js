@@ -13,8 +13,8 @@ require([
       const view = new MapView({
           container: "viewDiv", // Reference to the DOM node that will contain the view
           map: map,
-          center: [-81.3031, 29.0283],
-          zoom: 10
+          center: [-82.3562, 29.6516],
+          zoom: 15
       });
 
       const locateBtn = new Locate({
