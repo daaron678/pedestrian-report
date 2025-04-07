@@ -33,7 +33,6 @@ require([
         closeOnEsc: true
       });
       
-      // Add the locate widget to the top left corner of the view
       view.ui.add(locateBtn, {
         position: "top-left"
       });
@@ -43,8 +42,8 @@ require([
         });
       
       const layer = new FeatureLayer({ 
-        // URL to the pedestrian survey
-        url: "https://services.arcgis.com/LBbVDC0hKPAnLRpO/arcgis/rest/services/survey123_28d9d3b5ea7c4380b90419f9e8e22c4c_results/FeatureServer"
+        // Remember to turn on sharing
+        url: "https://services.arcgis.com/LBbVDC0hKPAnLRpO/arcgis/rest/services/Pedestrian_Report_Test/FeatureServer"
       });
 
       map.add(layer);
