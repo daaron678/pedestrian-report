@@ -43,7 +43,7 @@ require([
       
       const layer = new FeatureLayer({ 
         // Remember to turn on sharing
-        url: "https://services.arcgis.com/LBbVDC0hKPAnLRpO/arcgis/rest/services/Pedestrian_Report_Test/FeatureServer"
+        url: "https://services.arcgis.com/LBbVDC0hKPAnLRpO/arcgis/rest/services/survey123_68f02530df1e4360a2c33e394b8f1c8b_form/FeatureServer"
       });
       map.add(layer);
 
