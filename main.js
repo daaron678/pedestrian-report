@@ -8,7 +8,7 @@ require([
       esriConfig.apiKey = "AAPTxy8BH1VEsoebNVZXo8HurHJHfSmD6Cm_uV3pceVBDTiGAuoxaiNeGNYE1FhZE4iS7OQGQaHf26579IbGOgWT6YA608K2YFeRi-fMX1ZwN7ytSFcC1EZ-rW4xikf9ZMlYfOyvdysX8Sf0kqyNBBq0d_HiW2S5VnGXklVJGUX_8q3JBWItTG5s-Q9hpTp6ddBgwM6bDnDuwjvwqC17LNXkkxZNt-PyTv1IjiVXGVLcDDk.AT1_vp0kXsvd";
     
       const map = new Map({
-        basemap: "satellite"//"streets"
+        basemap: "streets"
       });
       const view = new MapView({
           container: "viewDiv", // Reference to the DOM node that will contain the view
@@ -54,7 +54,7 @@ require([
       
       const layer = new FeatureLayer({ 
         // Pedestrian Report layer
-        url: "https://services.arcgis.com/LBbVDC0hKPAnLRpO/arcgis/rest/services/survey123_68f02530df1e4360a2c33e394b8f1c8b/FeatureServer"
+        url: "https://services.arcgis.com/LBbVDC0hKPAnLRpO/arcgis/rest/services/survey123_f4384cef48c54f0fbae91797aeafb5a4/FeatureServer"
       }); 
       map.add(layer);
     });
