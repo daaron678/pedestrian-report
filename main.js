@@ -43,7 +43,7 @@ require([
       
       const layer = new FeatureLayer({ 
         // Hosted layer, view feature layer
-        url: "https://services.arcgis.com/LBbVDC0hKPAnLRpO/arcgis/rest/services/survey123_f4384cef48c54f0fbae91797aeafb5a4_form/FeatureServer"
+        url: "https://services.arcgis.com/LBbVDC0hKPAnLRpO/arcgis/rest/services/survey123_4ecab1eca6f14ee0a1fe3a8592423460_form/FeatureServer"
       }); 
 
       map.add(layer);
