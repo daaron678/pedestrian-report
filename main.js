@@ -53,8 +53,8 @@ require([
         });
       
       const layer = new FeatureLayer({ 
-        // Pedestrian Report layer
-        url: "https://services.arcgis.com/LBbVDC0hKPAnLRpO/arcgis/rest/services/survey123_f4384cef48c54f0fbae91797aeafb5a4/FeatureServer"
+        // Change feature layer
+        url: "https://services.arcgis.com/LBbVDC0hKPAnLRpO/arcgis/rest/services/survey123_28d9d3b5ea7c4380b90419f9e8e22c4c_results/FeatureServer"
       }); 
       map.add(layer);
     });
