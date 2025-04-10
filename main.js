@@ -32,18 +32,7 @@ require([
         expanded: false,
         closeOnEsc: true
       });
-
-      const legend = new Legend({
-        view: view, // Reference to the MapView
-        layerInfos: [
-          {
-            layer: layer, 
-            title: "Repair Type" 
-          }
-        ]
-      });
-      view.ui.add(legend, "bottom-left");
-      
+     
       view.ui.add(locateBtn, {
         position: "top-left"
       });
@@ -58,6 +47,19 @@ require([
       }); 
 
       map.add(layer);
+
+      const legend = new Legend({
+        view: view, // Reference to the MapView
+        layerInfos: [
+          {
+            layer: layer, 
+            title: "Repair Type" 
+          }
+        ]
+      });
+
+      view.ui.add(legend, "bottom-left");
+      
     });
 
 
