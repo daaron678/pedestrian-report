@@ -48,18 +48,18 @@ require([
 
       map.add(layer);
 
-      const legend = new Legend({
-        view: view, // Reference to the MapView
-        layerInfos: [
-          {
-            layer: layer, 
-            title: "Repair Type" 
-          }
-        ]
-      });
+      // const legend = new Legend({
+      //   view: view, 
+      //   layerInfos: [
+      //     {
+      //       layer: layer, 
+      //       title: "Repair Type" 
+      //     }
+      //   ]
+      // });
 
-      view.ui.add(legend, "bottom-left");
-      
+      // view.ui.add(legend, "bottom-left");
+
     });
 
 
