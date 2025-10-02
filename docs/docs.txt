@@ -1,0 +1,1 @@
+Payload.json provides the schema that is used by Power Automate to read in the attributes from Survey123
