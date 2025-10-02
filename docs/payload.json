@@ -1,0 +1,30 @@
+{
+    "type": "object",
+    "properties": {
+        "Type of Issue": {
+            "type": "string"
+        },
+        "Date": {
+            "type": "string"
+        },
+        "Location": {
+            "type": "object",
+            "properties": {
+                "Lat": {
+                    "type": "number"
+                },
+                "Lon": {
+                    "type": "number"
+                }
+            }
+        },
+        "Image": {
+            "type": "string"
+        },
+        "Description": {
+            "type": "string"
+        }
+    }
+}
+
+
