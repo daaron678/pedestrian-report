@@ -8,10 +8,14 @@ The dashboard will be a page with the Workforce app embedded as well as an 'Add 
 
 *Webhook*
 
-A webhook is used with Power Automate to update information whenever a survey is submitted. The process works where every new entry from Survey123 will be sent to a JSON file with the associated attributes. The JSON file can then be sent to a pipeline using ArcGIS Data Pipeline where there will be a workflow that uses Workforce API to add the attributes as a feature. 
+A webhook is used with Power Automate to update information whenever a survey is submitted. The process works where every new entry from Survey123 will be sent to a JSON file with the associated attributes. The JSON file can then be sent to a pipeline using ArcGIS Data Pipeline where there will be a workflow that uses the workforce module from ArcGIS for Python API to add the attributes as a feature: 
+https://developers.arcgis.com/python/latest/api-reference/arcgis.apps.workforce.html
 
 *Database*
 
 The schema of Workforce is explained here: 
 https://doc.arcgis.com/en/workforce/android-phone/help/workforce-schema.htm#ESRI_SECTION1_EDB5E3592870494BAE5F829765C604FF.
 The database will take this schema and build a CLI as an alternative way for employee admins to update and alter info on Workforce. The changes made will then be synced to display on workforce. 
+
+
+--- Add this readme as a section on the dashboard, and embed the hyperlinks to the text. 
