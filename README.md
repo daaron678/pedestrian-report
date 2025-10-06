@@ -1,6 +1,8 @@
 **Pedestrian Report Dashboard**
 
-The pedestrian report is a dashboard concept designed for a transportation department. It will take in a survey for pedestrians to report issues such as a damaged sidewalk and display a map that can assign tasks to employees. To do this Esri Survey123 will be used and Esri Workforce will be used to display the map of assigned tasks. Esri Workforce allows users to filter based on assigned roles and feature attributes. All entries in the survey will be automatically added to the Workforce map as a feature layer with unassigned points. 
+The pedestrian report is a dashboard concept designed for a transportation department. It will take in a survey for pedestrians to report issues such as a damaged sidewalk and display a map that can assign tasks to employees. To do this Esri Survey123 will be used and Esri Workforce will be used to display the map of assigned tasks. Esri Workforce allows users to filter based on assigned roles and feature attributes. This project will develop an automation to take new survey entries and update the Workforce web layout.The workflow is as follows:
+
+user adds survey --> survey info is automatically added to database (webhook that executes a script with Workforce API) --> updated Workforce web layout is displayed
 
 *Dashboard layout*
 
@@ -15,7 +17,7 @@ https://developers.arcgis.com/python/latest/api-reference/arcgis.apps.workforce.
 
 The schema of Workforce is explained here: 
 https://doc.arcgis.com/en/workforce/android-phone/help/workforce-schema.htm#ESRI_SECTION1_EDB5E3592870494BAE5F829765C604FF.
-The database will take this schema and build a CLI as an alternative way for employee admins to update and alter info on Workforce. The changes made will then be synced to display on workforce. 
+The database will take this schema and build a CLI as an alternative way for employee admins to update and alter info on Workforce. The changes made will then be synced to display on workforce. Useful example scripts are provided by Esri in this Github notebook: https://github.com/Esri/workforce-scripts/blob/master/notebooks/examples/1%20-%20Configuring%20a%20Project.ipynb
 
 
 --- Add this readme as a section on the dashboard, and embed the hyperlinks to the text. 
