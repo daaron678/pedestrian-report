@@ -1,3 +1,9 @@
 Payload.json provides the schema that is used by Power Automate to read in the attributes from Survey123
 
 For automation of Workforce see: https://doc.arcgis.com/en/workforce/android-phone/help/workforce-schema.htm
+
+A pre-configured python environment with ArcGIS modules installed was set to be used by the ipykernel using
+the command that followed:
+"[path to my python environment]" -, ipykernel install --user --name [acrgispro-py3] --display-name "Python argis"
+--> This will create a .json file (for Windows) in C:/Users/[user_name]/AppData/Roaming/jupyter/kernels/[project kernel]
+that includes the location of the python environment to allow the ipykernel to connect to. 

@@ -10,7 +10,8 @@ The dashboard will be a page with the Workforce app embedded as well as an 'Add 
 
 *Webhook*
 
-A webhook is used with Power Automate to update information whenever a survey is submitted. The process works where every new entry from Survey123 will be sent to a JSON file with the associated attributes. The JSON file can then be sent to a pipeline using ArcGIS Data Pipeline where there will be a workflow that uses the workforce module from ArcGIS for Python API to add the attributes as a feature: 
+A webhook is used with Power Automate to update information whenever a survey is submitted. The process works where every new entry from Survey123 will be sent to a JSON file with the associated attributes. The JSON file can then be sent to a jupyter notebook that will use the workforce module from 'ArcGIS for Python API' to update the Workforce database with the new survey info. (A .JSON file would be generated every time a survey is submitted and Power Automate would connect the file to ArcGIS Data Pipeline which includes the jupyter notebook.)
+See the docs for using the worforce module within ArrcGIS for Python API: 
 https://developers.arcgis.com/python/latest/api-reference/arcgis.apps.workforce.html
 
 *Database*
